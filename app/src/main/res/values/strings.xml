@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Minha Música Favorita</string>
+    <string name="image_coldplay_description">Círculos coloridos em fundo cinza escuro,
+    um se entrelaçando no outro formando um hexágono multicolorido.</string>
+    <string name="music_name">Sky Full Of Stars</string>
+    <string name="music_lyric">
+        \'Cause you\'re a sky\n
+        \'Cause you\'re a sky full of stars\n
+        I\'m gonna give you my heart\n
+        \'Cause you\'re a sky, cause you\'re a sky full of stars\n
+        \'Cause you light up the path\n
+        I don\'t care, go on and tear me apart\n
+        I don\'t care if you do, ooh ooh, ooh\n
+        \'Cause in a sky, \'cause in a sky full of stars\n
+        I think I saw you\n
+    </string>
+</resources>
