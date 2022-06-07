@@ -4,6 +4,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import br.com.zup.minhamusicafavorita.AlbunsFragment
+import br.com.zup.minhamusicafavorita.InformacoesFragment
 
 //pager adapter sempre que tiver um viewpager, adapter sempre que tiver um recyclerview
 class DetalhesPagerAdapter(
@@ -17,6 +19,10 @@ class DetalhesPagerAdapter(
 
     //sempre que usar viewpager, tem que usar fragmentos junto
     override fun createFragment(position: Int): Fragment {
-        TODO("Not yet implemented")
+        when(position) {
+            0 -> return InformacoesFragment()
+            1 -> return AlbunsFragment()
+        }
+        return InformacoesFragment()
     }
 }
