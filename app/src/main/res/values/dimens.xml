@@ -3,4 +3,8 @@
     <dimen name="height_250dp">250dp</dimen>
     <dimen name="text_size_16sp">16sp</dimen>
     <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="height_250">250dp</dimen>
+    <dimen name="txt_size_12">12sp</dimen>
+    <dimen name="margin_16">16dp</dimen>
 </resources>

@@ -53,5 +53,13 @@
             android:textAlignment="center"
             android:background="@color/white"/>
 
+        <Button
+            android:id="@+id/buttonDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_20"
+            android:text="ver detalhes"
+            android:background="@color/secondary_color_vivid_pink" />
+
     </LinearLayout>
 </ScrollView>
