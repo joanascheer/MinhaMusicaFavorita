@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalheAlbum.DetalheAlbumFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription="@string/capa_do_album"
+            android:id="@+id/ivCapaAlbumTelaDetalhes"
+            android:layout_width="@dimen/size_200"
+            android:layout_height="@dimen/size_200"
+            android:layout_margin="@dimen/margin_16"
+            android:src="@drawable/coldplay_spheres"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNomeAlbumTelaDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_16"
+            android:gravity="center"
+            android:text="@string/nome_do_album"
+            android:textSize="@dimen/text_size_16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivCapaAlbumTelaDetalhes"/>
+
+        <TextView
+            android:id="@+id/tvDescricaoAlbumTelaDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_16"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/exemplo_de_descri_o"
+            android:textSize="@dimen/txt_size_12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNomeAlbumTelaDetalhes"/>
+
+        <TextView
+            android:id="@+id/tvArtistaAlbumTelaDetalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/artista_txt"
+            android:textSize="@dimen/txt_size_12"
+            android:layout_margin="@dimen/margin_16"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDescricaoAlbumTelaDetalhes"/>
+
+        <TextView
+            android:id="@+id/tvLancamentoAlbumTelaDetalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/lancamento"
+            android:textSize="@dimen/txt_size_12"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tvArtistaAlbumTelaDetalhes"
+            app:layout_constraintTop_toBottomOf="@+id/tvArtistaAlbumTelaDetalhes" />
+
+        <TextView
+            android:id="@+id/tvGravadoraAlbumTelaDetalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/gravadora"
+            android:textSize="@dimen/txt_size_12"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tvLancamentoAlbumTelaDetalhes"
+            app:layout_constraintTop_toBottomOf="@+id/tvLancamentoAlbumTelaDetalhes" />
+
+        <TextView
+            android:id="@+id/tvEstudioAlbumTelaDetalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/estudio"
+            android:textSize="@dimen/txt_size_12"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tvGravadoraAlbumTelaDetalhes"
+            app:layout_constraintTop_toBottomOf="@+id/tvGravadoraAlbumTelaDetalhes" />
+
+        <TextView
+            android:id="@+id/tvFormatoAlbumTelaDetalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/formato"
+            android:textSize="@dimen/txt_size_12"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tvEstudioAlbumTelaDetalhes"
+            app:layout_constraintTop_toBottomOf="@+id/tvEstudioAlbumTelaDetalhes" />
+
+        <TextView
+            android:id="@+id/tvGeneroAlbumTelaDetalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/genero"
+            android:textSize="@dimen/txt_size_12"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tvFormatoAlbumTelaDetalhes"
+            app:layout_constraintTop_toBottomOf="@+id/tvFormatoAlbumTelaDetalhes"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

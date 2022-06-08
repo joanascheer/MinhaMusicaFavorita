@@ -26,7 +26,7 @@ class DetalhesActivity : AppCompatActivity() {
         //back button
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         //titulo que aparece na barra
-        supportActionBar?.setTitle("Minha música Favorita")
+        supportActionBar?.title = "Minha música Favorita"
     }
 
     private fun exibirViewPagerTabLayout() {

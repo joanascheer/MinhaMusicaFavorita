@@ -7,4 +7,6 @@
     <dimen name="height_250">250dp</dimen>
     <dimen name="txt_size_12">12sp</dimen>
     <dimen name="margin_16">16dp</dimen>
+    <dimen name="size_180">180dp</dimen>
+    <dimen name="size_200">200dp</dimen>
 </resources>

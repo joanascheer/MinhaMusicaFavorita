@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/joana.loayza/Documents/Catalisa_2022/PROJETOSANDROID/Aula2/MinhaMusicaFavorita/app/src/main/res/layout/activity_detalhes.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/joana.loayza/Documents/Catalisa_2022/PROJETOSANDROID/Aula2/MinhaMusicaFavorita/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/joana.loayza/Documents/Catalisa_2022/PROJETOSANDROID/Aula2/MinhaMusicaFavorita/app/src/main/res/layout/fragment_albuns.xml" value="0.2" />
+        <entry key="..\:/Users/joana.loayza/Documents/Catalisa_2022/PROJETOSANDROID/Aula2/MinhaMusicaFavorita/app/src/main/res/layout/albuns_item.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/joana.loayza/Documents/Catalisa_2022/PROJETOSANDROID/Aula2/MinhaMusicaFavorita/app/src/main/res/layout/fragment_albuns.xml" value="0.1" />
+        <entry key="..\:/Users/joana.loayza/Documents/Catalisa_2022/PROJETOSANDROID/Aula2/MinhaMusicaFavorita/app/src/main/res/layout/fragment_detalhe_album.xml" value="0.22" />
         <entry key="..\:/Users/joana.loayza/Documents/Catalisa_2022/PROJETOSANDROID/Aula2/MinhaMusicaFavorita/app/src/main/res/layout/fragment_informacoes.xml" value="0.22" />
         <entry key="..\:/Users/joana.loayza/Documents/Catalisa_2022/PROJETOSANDROID/MinhaMusicaFavorita/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
