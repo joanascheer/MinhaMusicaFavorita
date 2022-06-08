@@ -33,11 +33,14 @@ class AlbunsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        exibirRecyclerView()
         adicionarItemListaAlbuns()
     }
 
     private fun exibirRecyclerView() {
-        //adicionarItemListaAlbuns()
+        adicionarItemListaAlbuns()
+
         binding.rvListaAlbuns.adapter = albumAdapter
         binding.rvListaAlbuns.layoutManager = GridLayoutManager(context, 2)
     }
@@ -128,8 +131,8 @@ class AlbunsFragment : Fragment() {
                 "Ghost Stories"
             )
         )
+        albumAdapter.atualizarLista(listaAlbuns)
 
-        exibirRecyclerView()
         return listaAlbuns
     }
 
